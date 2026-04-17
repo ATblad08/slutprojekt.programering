@@ -1,0 +1,4 @@
+C:\programering\slutprojekt.programering\obj\Debug\net9.0\slutprojekt.programering.GeneratedMSBuildEditorConfig.editorconfig
+C:\programering\slutprojekt.programering\obj\Debug\net9.0\slutprojekt.programering.AssemblyInfoInputs.cache
+C:\programering\slutprojekt.programering\obj\Debug\net9.0\slutprojekt.programering.AssemblyInfo.cs
+C:\programering\slutprojekt.programering\obj\Debug\net9.0\slutprojekt.programering.csproj.CoreCompileInputs.cache
