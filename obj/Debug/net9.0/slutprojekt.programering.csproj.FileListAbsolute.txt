@@ -2,3 +2,14 @@ C:\programering\slutprojekt.programering\obj\Debug\net9.0\slutprojekt.programeri
 C:\programering\slutprojekt.programering\obj\Debug\net9.0\slutprojekt.programering.AssemblyInfoInputs.cache
 C:\programering\slutprojekt.programering\obj\Debug\net9.0\slutprojekt.programering.AssemblyInfo.cs
 C:\programering\slutprojekt.programering\obj\Debug\net9.0\slutprojekt.programering.csproj.CoreCompileInputs.cache
+C:\programering\slutprojekt.programering\obj\Debug\net9.0\slutprojekt.programering.sourcelink.json
+C:\programering\slutprojekt.programering\bin\Debug\net9.0\slutprojekt.programering.exe
+C:\programering\slutprojekt.programering\bin\Debug\net9.0\slutprojekt.programering.deps.json
+C:\programering\slutprojekt.programering\bin\Debug\net9.0\slutprojekt.programering.runtimeconfig.json
+C:\programering\slutprojekt.programering\bin\Debug\net9.0\slutprojekt.programering.dll
+C:\programering\slutprojekt.programering\bin\Debug\net9.0\slutprojekt.programering.pdb
+C:\programering\slutprojekt.programering\obj\Debug\net9.0\slutprojekt.programering.dll
+C:\programering\slutprojekt.programering\obj\Debug\net9.0\refint\slutprojekt.programering.dll
+C:\programering\slutprojekt.programering\obj\Debug\net9.0\slutprojekt.programering.pdb
+C:\programering\slutprojekt.programering\obj\Debug\net9.0\slutprojekt.programering.genruntimeconfig.cache
+C:\programering\slutprojekt.programering\obj\Debug\net9.0\ref\slutprojekt.programering.dll

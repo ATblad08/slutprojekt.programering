@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "slutprojekt.programering/1.0.0": {
+        "runtime": {
+          "slutprojekt.programering.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "slutprojekt.programering/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
