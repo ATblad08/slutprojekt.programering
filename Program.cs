@@ -270,20 +270,57 @@ class program
     { bug, dark, dragon, electric, fairy, fighting, fire, flying, ghost, 
     grass, ground, ice, normal, poison, psychic, rock, steel, water };
    
-    Console.WriteLine("motståndarens typ är?");
-    string t1 = Console.ReadLine().ToLower();   
+    Console.WriteLine("Vad är din motståndarens första typ?");
+    string typ1 = Console.ReadLine().ToLower();  
 
-    Console.WriteLine("letar efter bästa valet mot " + t1);
+    Console.WriteLine("Vad är din motståndarens andra typ? (om ingen klicka enter)");
+    string typ2 = Console.ReadLine().ToLower();   
 
-    foreach (Typ t in allaTyper)
+
+    Console.WriteLine("letar efter bästa valet mot " + typ1 + " och " + typ2 + "...");
+    Console.WriteLine("______________________________________________________________");
+
+
+    Typ motTyp1 = TypSomMatchar(typ1, allaTyper);
+    Typ motTyp2 = TypSomMatchar(typ2, allaTyper);
+
+
+    if(motTyp1 != null)
     {
-        double skada = kolla(t, t1);
-        Console.WriteLine(t.Name + " gör " + skada + "x skada.");
-    }
-   
-    }
+        foreach (Typ t in allaTyper)
+        {
+        double skada1 = kolla(motTyp1, t.Name);
+        double skada2 = 1.0;
 
+        if(motTyp2 != null && typ2 != "")
+        { 
+        skada2 = kolla(motTyp2, t.Name);
+        }
+    
+        double totalSkada = skada1 * skada2;
 
+        double risk1 = kolla(t, typ1);
+        double risk2 = 1.0;
+
+        if(typ2 != "")
+        {
+            risk2 = kolla(t, typ2);
+        }
+
+        if(totalSkada > 1.5 && risk1 <= 1.0 && risk2 <= 1.0)
+        {
+            Console.WriteLine(t.Name + " Gör " + totalSkada + "x skada");
+        }
+
+        else if(totalSkada > 1.5)
+        {
+            Console.WriteLine(t.Name + "Gör bra skada, men är svag mot motståndaren");
+        }
+        }
+    }
+    else
+    {
+        Console.WriteLine("Hittade inte typen, se till att stava rätt och skriva på engelska");
+    };
 
     
-}
