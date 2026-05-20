@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("slutprojekt.programering")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c979fd886a2aa82ace178d377f0135c82334a62")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09665e1abcd4ccfcff8aa54cce100ea97a54426a")]
 [assembly: System.Reflection.AssemblyProductAttribute("slutprojekt.programering")]
 [assembly: System.Reflection.AssemblyTitleAttribute("slutprojekt.programering")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
